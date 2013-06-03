@@ -2,14 +2,13 @@
 Multi-Pane Transfer
 ================================
 
-A jQuery plugin that takes a multiselect html tag, and converts it into an multipane exclusive chooser. All options in the multi-select element are considered selected, and can be organized into different exclusive values (or group values) as determined by the value present in the optgroup tag.
-
-The *UNIQUE* value of each option(_has to be unique_), is used as an identifier which will be the position in the array where the group value will be returned. For example if an option, with the value = 3, is in an optgroup/pane with value 1 - the submission will be:
-
 ![Alt 2-Pane](/imgs/2pane.png)
 ![Alt 3-Pane](/imgs/3pane.png)
 ![Alt 4-Pane](/imgs/4pane.png)
 
+A jQuery plugin that takes a multiselect html tag, and converts it into an multipane exclusive chooser. All options in the multi-select element are considered selected, and can be organized into different exclusive values (or group values) as determined by the value present in the optgroup tag.
+
+The *UNIQUE* value of each option(has to be unique), is used as an identifier which will be the position in the array where the group value will be returned. For example if an option, with the value = 3, is in an optgroup/pane with value 1 - the submission will be:
 
 Simple Form
 -------------------------------
@@ -58,7 +57,7 @@ In this case there are three exclusive groups that each member can be sorted und
 </form>
 ```
 
-Simple Form
+Resulting Submission
 -------------------------------
 
 ```
@@ -78,10 +77,11 @@ Array
 
 Notes
 -------------------------------
--Undefined options values(used for unique submission ids) will use a unique id generated in the plugin.
--Labels are taken from the optgroups for display labels
--Panes can be added dynamically based on opt-groups.
--Some systems require strict html, which doesn't allow empty optgroups. Any option with value starting with *__BLANK__* will be *IGNORED* & "REMOVED* by the plugin.
+
+*Undefined options values(used for unique submission ids) will use a unique id generated in the plugin.
+*Labels are taken from the optgroups for display labels
+*Panes can be added dynamically based on opt-groups.
+*Some systems require strict html, which doesn't allow empty optgroups. Any option with value starting with *__BLANK__* will be *IGNORED* & "REMOVED* by the plugin.
 
 Usage
 -------------------------------
