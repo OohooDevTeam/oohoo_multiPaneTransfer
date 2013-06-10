@@ -78,10 +78,10 @@ Array
 Notes
 -------------------------------
 
-*Undefined options values(used for unique submission ids) will use a unique id generated in the plugin.
-*Labels are taken from the optgroups for display labels
-*Panes can be added dynamically based on opt-groups.
-*Some systems require strict html, which doesn't allow empty optgroups. Any option with value starting with *__BLANK__* will be *IGNORED* & "REMOVED* by the plugin.
+*	Undefined options values(used for unique submission ids) will use a unique id generated in the plugin.
+*	Labels are taken from the optgroups for display labels
+*	Panes can be added dynamically based on opt-groups.
+*	Some systems require strict html, which doesn't allow empty optgroups. Any option with value starting with *__BLANK__* will be *IGNORED* & "REMOVED* by the plugin.
 
 Usage
 -------------------------------
